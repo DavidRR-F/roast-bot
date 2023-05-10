@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Set the style of the scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Set the track style */
+::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+
+/* Set the thumb style */
+::-webkit-scrollbar-thumb {
+    background: #3c3c3c;
+    border-radius: 5px;
+}
+
+/* Set the hover style */
+::-webkit-scrollbar-thumb:hover {
+    background: #bfbfbf;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.input-container {
+    display: grid;
+    grid-template-columns: 1fr 60px;
+    gap: 0.5rem;
+}
+
+.chat-log {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: #252526;
+    height: 70vh;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow-y: auto;
+}
+
+.bot {
+    color: #4ec9b0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.user {
+    color: #4e98c9;
+    text-align: right;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+  h1 {
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style the text input element */
+  input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: large;
+  }
+  
+  /* Style the submit button element */
+  button[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Style the submit button element on hover */
+  button[type="submit"]:hover {
+    background-color: #666;
+  }
+
+  .loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  
+  
+  
+  
+  
+  
